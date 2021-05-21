@@ -1,0 +1,27 @@
+{
+  "name": "tsxpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^15.6.0",
+    "@types/yargs": "^17.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+      "tsxpress": "dist/index.js"
+    }
+}
