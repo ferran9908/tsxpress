@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/ferran9908/tsxpress",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b",
     "start": "ts-node src/index.ts"
   },
-  "author": "",
+  "author": "Ferran Sulaiman",
   "license": "ISC",
   "devDependencies": {
     "@types/fs-extra": "^9.0.11",
@@ -22,6 +22,6 @@
     "yargs": "^17.0.1"
   },
   "bin": {
-      "tsxpress": "dist/index.js"
-    }
+    "tsxpress": "dist/index.js"
+  }
 }
